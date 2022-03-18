@@ -43,7 +43,7 @@ data_H=measured_power.get_power_from_grid(grid=halos,power_type="halo_p3d")
 # linear matter power
 model = model_density.LinearDensityModel()
 
-# two panels,top p3d and bottom p1d
+# two panels,top flux p3d and bottom cross
 plt.rcParams.update({'font.size': 10})
 fig, axs = plt.subplots(2,sharex=True,sharey=False,figsize=[8,6])
 fig.suptitle('Flux and cross power spectra at z={}'.format(z))
