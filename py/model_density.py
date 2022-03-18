@@ -1,7 +1,5 @@
 import numpy as np
 import os
-import scipy
-import sherwood_simulation
 
 
 def f_of_z(z):
