@@ -15,6 +15,8 @@ The py/ folder contain some simple scripts to load the data and make some basic 
  - plot_ratio.py: another plotting script, dividing the measured power by the linear power spectrum.
  - unpickle.py  (Ignore, will be removed soon)
 
-### Dependencies
+### Install
 
 The only dependency should be fitsio, that one can easily obtain from pip.
+
+You will need to define an environmental variable SHERWOOD pointing to the local copy of the repository.
