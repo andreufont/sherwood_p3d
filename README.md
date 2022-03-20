@@ -20,3 +20,7 @@ The py/ folder contain some simple scripts to load the data and make some basic 
 The only dependency should be fitsio, that one can easily obtain from pip.
 
 You will need to define an environmental variable SHERWOOD pointing to the local copy of the repository.
+
+### Citations
+
+If you use the power spectrum measurements from this repository, please cite Givans et al. (2022) and the original Sherwood paper (Bolton et al. 2017).
