@@ -1,6 +1,6 @@
 import numpy as np
 import os
-
+import sherwood_simulation as she_sim
 
 def f_of_z(z):
     """Get the dimensionless linear growth rate for a snapshot redshift."""
@@ -61,7 +61,7 @@ class LinearDensityModel(object):
             - k_hMpc: input wavenumber or (array) in h/Mpc. """
 
         # make sure input redshift is in the dictionary
-        snap=sherwood_simulation.snapshot_from_redshift(z)
+        snap=she_sim.snapshot_from_redshift(z)
         assert snap in self.linP,'input snapshot not in list '+str(snap)
 
         # interpolate linear power to input wavenumber (in Mpc/h)
