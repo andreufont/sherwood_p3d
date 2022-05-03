@@ -3,7 +3,7 @@ Measurements of clustering of Lyman alpha and halos in the Sherwood simulations.
 
 ### Content
 
-This repository contains the measured power spectra (flux auto, halo auto, and flux-halo cross) from the Sherwood suite of simulations, as presented in Givans et al. (2022).
+This repository contains the measured power spectra (flux auto, halo auto, and flux-halo cross) from the Sherwood suite of simulations, as presented in [Givans et al. (2022)](https://arxiv.org/abs/2205.00962).
 
 The actual measurements are stored under the data/ folder, in FITS format. (Ignore the pickled_data/ folder, will be removed before publication).
 
