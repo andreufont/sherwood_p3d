@@ -23,4 +23,4 @@ You will need to define an environmental variable SHERWOOD pointing to the local
 
 ### Citations
 
-If you use the power spectrum measurements from this repository, please cite Givans et al. (2022) and the original Sherwood paper (Bolton et al. 2017).
+If you use the power spectrum measurements from this repository, please cite [Givans et al. (2022)](https://arxiv.org/abs/2205.00962) and the original Sherwood paper (Bolton et al. 2017).
